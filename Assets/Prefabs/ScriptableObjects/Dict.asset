@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c1f4f2e52c7174cb5cb99f35b6f49d, type: 3}
+  m_Name: Dict
+  m_EditorClassIdentifier: 
+  nameArray:
+  - TargetG
+  - TargetR
+  - TargetH
+  - TargetS
+  - TargetF
+  targetArray:
+  - points: 3
+    particleEffect: {fileID: 2504214343621411456, guid: f51882fd46700f24d9d68992212d9fdf, type: 3}
+    impact: 0.5
+    prefab: {fileID: 8481879345521137856, guid: 5e3c115a68d99de4394af2a19597a595, type: 3}
+    probability: 4
+    targetAction: 0
+  - points: -1
+    particleEffect: {fileID: 198330214428362902, guid: d1e36cf0864072c429d890fc6cef6b71, type: 3}
+    impact: 1
+    prefab: {fileID: 8481879345521137856, guid: 6be13e97a258f9e4ba3827d1387c38b3, type: 3}
+    probability: 3
+    targetAction: 0
+  - points: 1
+    particleEffect: {fileID: 19800004, guid: 8ea1c7d3da31d8042a26288f218b13c2, type: 3}
+    impact: 0.25
+    prefab: {fileID: 8481879345521137856, guid: 9113dcd7d11bf364091474653a03d322, type: 3}
+    probability: 1
+    targetAction: 1
+  - points: 7
+    particleEffect: {fileID: 19800006, guid: e3894e5508958704884d7f31a1524749, type: 3}
+    impact: 0.45
+    prefab: {fileID: 8481879345521137856, guid: 252835030f53dd243b27c51b2c72c166, type: 3}
+    probability: 1
+    targetAction: 0
+  - points: 7
+    particleEffect: {fileID: 198157547220164012, guid: 4314368af6e2d90428225594602e0192, type: 3}
+    impact: -0.7
+    prefab: {fileID: 8481879345521137856, guid: 2fa01bdf3c61cc24389fd9cb4ad3983b, type: 3}
+    probability: 1.5
+    targetAction: 2
